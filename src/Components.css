@@ -1,0 +1,62 @@
+#Components h1 {
+    text-align: center;
+    margin: 10px 0 30px 0;
+}
+
+#Components h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#Components #container {
+    width: 75%;
+    margin: 0 auto 20px auto;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+#Components #item {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 0;
+}
+
+#Components #item input {
+    width: 50%;
+}
+
+#Components #set {
+    margin: 10px 0;
+}
+
+#Components #add-button {
+    display: block;
+    margin: auto;
+    width: 125px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+#Components #add-button:hover {
+    background-color: gray;
+    cursor: pointer;
+}
+
+#Components #buttons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+#Components #buttons button {
+    margin: 0 10px;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+#Components #buttons button:hover {
+    background-color: gray;
+    cursor: pointer;
+}

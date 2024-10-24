@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import Components from './Components.jsx'
-import Make_cv from './make_cv.jsx';
+import Make_cv from './Make_cv.jsx';
 
 const App = () => {
     const [submitted, setSubmitted] = useState(false);
